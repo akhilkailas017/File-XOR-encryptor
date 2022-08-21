@@ -1,5 +1,7 @@
 # File-XOR-encryptor
 
+**Main File Source Code**
+
 ```python
 def Encrypt(filename, key):
     file = open(filename, "rb")
