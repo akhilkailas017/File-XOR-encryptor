@@ -1,5 +1,6 @@
 # File-XOR-encryptor
 
+```python
 def Encrypt(filename, key):
     file = open(filename, "rb")
     data = file.read()
@@ -44,8 +45,7 @@ while choice != "3":
         Encrypt(filename, key)
     if choice == "2":
         Decrypt(filename, key)
+   ```     
         
         
-        
-        
-        save it .py
+ save it .py
