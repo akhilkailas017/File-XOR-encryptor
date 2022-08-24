@@ -48,6 +48,14 @@ while choice != "3":
     if choice == "2":
         Decrypt(filename, key)
    ```     
-        
-        
+ 
+**Rot13 Source Code** 
+
+```python
+import codecs
+def rot13(sentence):
+    return codecs.encode(sentence, 'rot_13')
+print(rot13('PYTHON Programming Language'))
+```
+
  save it .py
