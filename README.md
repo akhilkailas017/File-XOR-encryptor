@@ -13,4 +13,4 @@
 - then we get an encrypted file
 - for decrypting
 - preform XOR operation between output file and key
-- it convert the encrypted gile back to the original file
+- it convert the encrypted file back to the original file
